@@ -8,3 +8,6 @@ This scheduler follows 5 rules: -
   4) Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is              reduced(i.e., it moves down on queue).
   5) After some time period S, move all the jobs in the system to the topmost queue.
 
+This program is written for linux. Queues and Linkedlist have been used to form the Multi Level Queue. 
+
+Different test cases are also provided to check the program. 
